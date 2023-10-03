@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(120deg, #27bd9f , #5499C7 );
+    height: 100vh;
+}
+
+.formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+}
+
+.formulario h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.formulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .username{
+    position: relative;
+    border-bottom: 2px solid silver;
+    margin: 30px 0;
+}
+
+form .contrasena{
+    position: relative;
+    border-bottom: 2px solid silver;
+    margin: 30px 0;
+}
+
+.aea{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.yea{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #dfdfdf;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+
+}
+
+
+.recordar{
+    margin: -5px 0 20px 5px;
+    color: rgb(76, 76, 192);
+    cursor: pointer;
+}
+
+.recordar:hover{
+    text-decoration: underline;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #7bbfda;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    border-color: #000000;
+    transition: .5s;
+}
+
+.registrarse{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+}
+
+.registrate a{
+    color: rgb(32, 172, 197);
+    text-decoration: none;
+}
+
+.registrarse a:hover{
+    text-decoration: underline;
+    color: rgb(32, 172, 197);
+    cursor: pointer;
+}
